@@ -9,11 +9,11 @@ temp=*x;
 *x=*y;
 *y=temp;
 
-//printf("ewaped no %d%d",x,y);
+//printf("swaped no %d%d",x,y);
 }
 void main()
 {int a,b;
-printf("entrt te number\n");
+printf("enter to number\n");
 scanf("%d%d",&a,&b);
 f(&a,&b);
 printf("%d%d",a,b);
